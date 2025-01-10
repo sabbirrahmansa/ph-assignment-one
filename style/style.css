@@ -2,6 +2,7 @@
 
 body{
     padding: 30px;
+    background-color: #F1F1F3;
     
 }
 .open-sans-normal {
@@ -48,6 +49,10 @@ body{
     color: #FFFFFF;
     border: none;
 }
+.banner-btn:hover{
+    background-color: #f50baf;
+
+}
 /* main */
 .vf-taitle{
     font-weight: bold;
@@ -62,7 +67,7 @@ body{
 }
 .card-con{
     display: flex;
-    gap: 8px;
+    gap: 16px;
     margin-top: 10px;
 }
 .card{
@@ -95,6 +100,17 @@ body{
     font-size: 18px;
     color: #FFFFFF;
     border: none;
+}
+.card-btn:hover{
+    background-color: rgb(235, 201, 7);
+}
+.card-btn-two:hover{
+    background-color: rgb(248, 53, 118);
+    
+}
+.card-btn-th:hover{
+    background-color: rgba(228, 47, 159, 0.993);
+
 }
 .card-btn-two{
     background-color: #09A15C;
@@ -138,7 +154,7 @@ body{
     gap: 30px;
     justify-content: center;
     align-items: center;
-    background-color: #f0f3f2;
+    background-color: #FFFFFF;
     padding: 16px;
     border-radius: 8px;
     width: auto;
@@ -162,4 +178,70 @@ body{
 }
 .aicon-hero{
     width: 60px;
+}
+.card-tk{
+    font-weight:bold ;
+    font-size: 40px;
+    color: #0E0E0E;
+    background-color: #FFFFFF;
+    width: 240px;
+    height: 128;
+    padding: 20px;
+}
+.card-tk:hover{
+    background-color:rebeccapurple;
+}
+.tk-cards{
+    display: flex;
+    gap: 10px;
+}
+
+.tk-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.p-br{
+    text-align: center;
+}
+.inp{
+    width: 1132px;
+   
+    height: 64;
+    padding: 10px;
+    
+}
+.re-nz{
+    margin-top: 100px;
+}
+.vs-fu{
+    margin-top: 100px;
+}
+.bg-color{
+    font-weight:bold ;
+    font-size: 40px;
+    color: #0E0E0E;
+    background-color: #f50bd6;
+    width: 240px;
+    height: 128;
+    padding: 20px;
+}
+/* hover */
+.bg-color:hover{
+    background-color: #FFC239;
+}
+.voice-pricedent{
+    
+    background-color: #FFFFFF;
+    padding: 16px;
+    border-radius: 8px;
+    width: auto;
+    height: 50;
+    margin-top: 60px;
+
+}
+.img{
+    background-image: url('');
 }
