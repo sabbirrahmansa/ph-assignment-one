@@ -1,9 +1,12 @@
 /* google font css */
 
 body{
-    padding: 30px;
+    
     background-color: #F1F1F3;
     
+}
+.header-main{
+    padding: 30px;
 }
 .open-sans-normal {
   font-family: "Open Sans", serif;
@@ -34,6 +37,11 @@ body{
     color: #09A15C;
     border: 1px solid green;
 }
+.nav-btn:hover{
+    background-color: rgba(4, 82, 14, 0.651);
+    border: none;
+    color: #FFFFFF;
+}
 /* banner */
 .banner{
     width: 1280px;
@@ -45,11 +53,14 @@ body{
     align-items: center;
    gap: 30px;
    justify-content: space-around;
+   
 
 }
+
 .img-banner{
     width: 470px;
 }
+
 .banner-title{
     font-weight: 400;
     font-size: 24px;
@@ -98,6 +109,18 @@ body{
     background-color: #548ff534;
     padding: 8px;
     border-radius: 12px;
+}
+.card:hover{
+    background-color: blueviolet;
+    width: 700px;
+}
+.card-second:hover{
+    background-color: darkorange;
+    width: 700px;
+}
+.card-th:hover{
+    background-color:purple;
+    width: 700px;
 }
 .card-icon{
     width: 60px;
@@ -211,7 +234,7 @@ body{
     padding: 20px;
 }
 .card-tk:hover{
-    background-color:rebeccapurple;
+    background-color:sienna;
 }
 .tk-cards{
     display: flex;
@@ -293,7 +316,13 @@ body{
     padding: 10px;
     background-color: #006A50;
     border-radius: 0px 10px 10px 0px;
+    font-weight: 400;
+    font-family: 18px;
+    color: #FFFFFF;
 
+}
+.footer-btn:hover{
+    background-color: #f50baf;
 }
 .footer-cont{
     display: flex;
@@ -307,4 +336,20 @@ body{
     font-size:16px ;
     color: #0e0e0e75;
 
+}
+.footer-icons{
+    display: flex ;
+    gap: 16px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    
+    height: 200;
 }
