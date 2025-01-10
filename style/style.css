@@ -12,6 +12,28 @@ body{
   font-variation-settings:
     "wdth" 100;
 }
+/* nav */
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav{
+    font-weight: bold;
+    font-size: 30px;
+    color: #0E0E0E;
+    
+}
+.nav-btn{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 8px;
+    color: #09A15C;
+    border: 1px solid green;
+}
 /* banner */
 .banner{
     width: 1280px;
@@ -244,4 +266,45 @@ body{
 }
 .img{
     background-image: url('');
+}
+/* footer */
+.footer-container{
+    width: 1280px;
+    height:395 ;
+    background-color: #C6E4D6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 10px;
+    margin-top: 40px;
+}
+.input{
+    width: 700px;
+   
+    height: 64;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+.footer-btn{
+    border: none;
+    padding: 10px;
+    background-color: #006A50;
+    border-radius: 0px 10px 10px 0px;
+
+}
+.footer-cont{
+    display: flex;
+}
+.ftr-title{
+    font-weight:bold ;
+    font-size:40px ;
+}
+.ftr-dec{
+    font-weight:400 ;
+    font-size:16px ;
+    color: #0e0e0e75;
+
 }
