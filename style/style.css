@@ -6,7 +6,7 @@ body{
     
 }
 .header-main{
-    padding: 30px;
+    padding: 40px;
 }
 .open-sans-normal {
   font-family: "Open Sans", serif;
@@ -44,7 +44,7 @@ body{
 }
 /* banner */
 .banner{
-    width: 1280px;
+    width: 1220px;
     height: 560;
     background-color: #C6E4D6;
     border-radius: 16px;
@@ -295,7 +295,7 @@ body{
 }
 /* footer */
 .footer-container{
-    width: 1280px;
+    width: 1210px;
     height:395 ;
     background-color: #C6E4D6;
     display: flex;
