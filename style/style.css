@@ -287,8 +287,11 @@ body{
     margin-top: 60px;
 
 }
-.img{
-    background-image: url('');
+.voice-pricedent{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    padding: 8px;
+    
 }
 /* footer */
 .footer-container{
